@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfólio - Meus Projetos</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f0f4f8; /* cor de fundo */
+    }
+    header, .navbar {
+      background-color: #00b8d8; /* cor escolhida */
+    }
+    .navbar-brand, .nav-link, header h1, header p {
+      color: #fff !important;
+    }
+    .card {
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Portfólio - Meus Projetos</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#atividade2">Projeto 1</a></li>
+        <li class="nav-item"><a class="nav-link" href="#bootstrap">Projeto 2</a></li>
+        <li class="nav-item"><a class="nav-link" href="#bootstrap2">Projeto 3</a></li>
+        <li class="nav-item"><a class="nav-link" href="#bootstrap3">Projeto 4</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="text-center py-5">
+  <h1>Portfólio da Ana Caroline</h1>
+  <p class="lead">Projetos desenvolvidos ao longo do semestre</p>
+</header>
+
+<div class="container my-5">
+  <div class="row g-4">
+
+    <div class="col-md-4" id="documento">
+      <div class="card">
+        <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/5005840-user-icon-in-trendy-flat-style-isolated-on-gray-background-user-symbol-for-your-web-site-design-logo-app-ui-vector-illustration-eps10-gratis-vetor.jpg" class="card-img-top" alt="Projeto1">
+        <div class="card-body">
+          <h5 class="card-title">Projeto 1 - Cadastro de Usuário</h5>
+          <p class="card-text">Primeira atividade feita no semestre constitui um site com um sistema simples de cadastro de usuários feito em HTML, CSS e JavaScript.</p>
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalDocumento">Detalhes</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modalDocumento" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Projeto 1 - Cadastro de Usuário</h5>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <p>Este projeto consistiu que o site permite cadastrar dados (nome, brinquedo, tempo, data, hora e avaliação), salvar no localStorage em JSON e exibir automaticamente em uma tabela, mesmo após recarregar a página.</p>
+            <p><a href=" https://anacarolinesilvaa.github.io/cadastrodeusuario/" target="_blank">🔗 Acessar projeto</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4" id="atividade2">
+      <div class="card">
+        <img src="https://static.vecteezy.com/ti/vetor-gratis/t1/6626890-verao-praia-logotipo-ilustracaoial-vetor.jpg" class="card-img-top" alt="Projeto2">
+        <div class="card-body">
+          <h5 class="card-title">Projeto 2 - Praias Brasileiras</h5>
+          <p class="card-text">Segunda atividade do semestre desenvolve um site simples sobre praias brasileiras, utilizando HTML5 e o framework Bootstrap para estilização.</p>
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAtividade2">Detalhes</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modalAtividade2" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Projeto 2 - Praias Brasileiras</h5>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <p>Este site apresenta algumas das praias brasileiras mais conhecidas, trazendo informações sobre turismo, imagem ilustrativa e uma tabela com destinos, estados e custo médio por dia. Ele utiliza HTML5 e Bootstrap para organização e estilo, além de incluir um exemplo em JavaScript para calcular o orçamento de viagem.</p>
+            <p><a href="https://anacarolinesilvaa.github.io/praias/index2.html" target="_blank">🔗 Acessar projeto</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4" id="bootstrap">
+      <div class="card">
+        <img src="https://static.vecteezy.com/ti/vetor-gratis/t2/13529418-modelo-de-de-icone-de-design-de-logotipo-de-clube-de-fitness-de-musculacao-de-ginasio-vetor.jpg" class="card-img-top" alt="Projeto3">
+        <div class="card-body">
+          <h5 class="card-title">Projeto 3 - FIT CLASS</h5>
+          <p class="card-text">Este código desenvolve um site para a academia FIT CLASS, desenvolvido em HTML, CSS e Bootstrap.</p>
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalBootstrap">Detalhes</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modalBootstrap" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Projeto 3 - FIT CLASS</h5>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <p>O site apresenta uma identidade visual em preto e dourado, com uma navbar de navegação, um carrossel de imagens destacando a academia e suas modalidades, seções com cartões de serviços (musculação e dança) e um menu dropdown para escolha de planos (semanal, mensal ou anual).</p>
+            <p><a href=" https://anacarolinesilvaa.github.io/FIT-CLASS/" target="_blank">🔗 Acessar projeto</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4" id="bootstrap2">
+      <div class="card">
+        <img src="https://st3.depositphotos.com/1914485/15349/v/450/depositphotos_153497196-stock-illustration-zoo-logo-with-animals-template.jpg" class="card-img-top" alt="Projeto4">
+        <div class="card-body">
+          <h5 class="card-title">Projeto 4 - Zoológico</h5>
+          <p class="card-text">Este código desenvolve um site de zoológico desenvolvido com HTML, CSS, Bootstrap e JavaScript, organizado em abas interativas.</p>
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalBootstrap2">Detalhes</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modalBootstrap2" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Projeto 4 - Zoológico</h5>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <p>Cada aba exibe galerias de imagens e descrições dos animais, além de informações úteis como localização do zoológico e valores de ingressos. O site também inclui efeitos de carregamento (spinners), toasts de notificação e um recurso que mostra automaticamente a hora atual a cada 10 segundos.</p>
+            <p><a href="https://anacarolinesilvaa.github.io/Zoologico/" target="_blank">🔗 Acessar projeto</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="container my-5" id="comentarios">
+  <h2 class="text-center mb-4">Área de Comentários</h2>
+
+  <form id="comentarioForm" class="card p-4 shadow">
+    <div class="mb-3">
+      <label for="nome" class="form-label">Nome:</label>
+      <input type="text" id="nome" class="form-control" required>
+    </div>
+    <div class="mb-3">
+      <label for="mensagem" class="form-label">Comentário:</label>
+      <textarea id="mensagem" class="form-control" rows="3" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+
+  <div class="mt-5">
+    <h4 class="mb-3">Comentários cadastrados</h4>
+    <div id="comentariosLista" class="row g-3"></div>
+  </div>
+</div>
+
+<script>
+  
+  function carregarComentarios() {
+    let comentarios = JSON.parse(localStorage.getItem("comentarios")) || [];
+    let lista = document.getElementById("comentariosLista");
+
+    if (comentarios.length === 0) {
+      lista.innerHTML = "<p class='text-muted'>Nenhum comentário ainda. Seja o primeiro!</p>";
+      return;
+    }
+
+    lista.innerHTML = "";
+    comentarios.forEach(c => {
+      lista.innerHTML += `
+        <div class="col-12">
+          <div class="card p-3 shadow-sm">
+            <h5>${c.nome}</h5>
+            <p>${c.mensagem}</p>
+            <small class="text-muted">Enviado em: ${c.data}</small>
+          </div>
+        </div>
+      `;
+    });
+  }
+
+  document.getElementById("comentarioForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    let nome = document.getElementById("nome").value;
+    let mensagem = document.getElementById("mensagem").value;
+
+    let comentarios = JSON.parse(localStorage.getItem("comentarios")) || [];
+
+    let novoComentario = {
+      nome: nome,
+      mensagem: mensagem,
+      data: new Date().toLocaleString()
+    };
+
+    comentarios.push(novoComentario);
+    localStorage.setItem("comentarios", JSON.stringify(comentarios));
+
+    document.getElementById("comentarioForm").reset();
+    carregarComentarios();
+  });
+
+  carregarComentarios();
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
